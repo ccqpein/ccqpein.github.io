@@ -1,8 +1,8 @@
 # Site settings
-title: ccQ_Blog
+title: ccQ's Blog
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
-description: "Write your site description here. It will be used as your sites meta description as well!"
+email: ccq777@hotmail.com
+description: "ccQ的博客"
 baseurl: ""
 url: "http://yourdomain.com"
 twitter_username: ccQpein
@@ -13,5 +13,5 @@ facebook_username:
 markdown: kramdown
 highlighter: pygments
 permalink: /:title
-paginate: 5
+paginate: 6
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
