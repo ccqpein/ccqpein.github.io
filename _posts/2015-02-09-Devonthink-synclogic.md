@@ -26,7 +26,7 @@ devonthink在设置界面允许把数据库和别的文档位置同步，我选�
 
 这样就可以理解软件设置中的同步提示：
 
->sync this database …at these times …with these lacations
+>sync this database …at these times …with these locations
 
 同步的库能备份很多库，但是取消同步后，原来的库还在里面。如果不是这样，无法做到很多库同步到一个地方，不能删除，只能更改。如果想删除一个库，不能直接删除，只能清空后同步，如果直接删除了本地库，同步库里面有之前文件的备份。
 
