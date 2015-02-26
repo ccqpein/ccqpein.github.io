@@ -58,7 +58,8 @@ if __name__ == "__main__":
 
 	#头文件变量定义，加入正文
 	headd[3] = ''.join(title)
-	headd[5] = '"' + modify_date + '最后修改' + '"\n'
+	#副标题不好看，去掉了
+	#headd[5] = '"' + modify_date + '最后修改' + '"\n'
 	headd[7] = creat_date[4] +'-' +str(yearTable['Feb']) +'-' +creat_date[2] +' ' +creat_date[3] +'\n'
 
 	headline = ''.join(headd)
