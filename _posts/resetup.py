@@ -44,7 +44,7 @@ if __name__ == "__main__":
 			strs = ''
 			ss += strs
 			continue
-		
+		'''
 		if strs == '\n':
 			ss += strs
 			continue
@@ -53,7 +53,8 @@ if __name__ == "__main__":
 			strs = '<p>' + strs
 			ss += strs
 			continue
-
+		'''
+		
 	ss = ''.join(ss)
 
 	#头文件变量定义，加入正文
