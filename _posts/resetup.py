@@ -44,6 +44,7 @@ if __name__ == "__main__":
 			strs = ''
 			ss += strs
 			continue
+		#<p></p>意义不大，几乎看不出来
 		'''
 		if strs == '\n':
 			ss += strs
