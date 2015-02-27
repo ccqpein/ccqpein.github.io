@@ -1,0 +1,22 @@
+{ "name": "ebook-convert",
+  "description": "node.js wrapper around calibre's ebook-convert command",
+  "dist-tags": { "latest": "0.1.0" },
+  "versions": [ "0.0.1", "0.0.2", "0.1.0" ],
+  "maintainers": "sethvincent <sethvincent@gmail.com>",
+  "repository": 
+   { "type": "git",
+     "url": "http://github.com/sethvincent/node-ebook-convert.git" },
+  "homepage": "https://github.com/sethvincent/node-ebook-convert",
+  "keywords": [ "calibre", "ebooks", "epub", "mobi", "pdf", "hmt"],
+  "bugs": { "url": "https://github.com/sethvincent/node-ebook-convert/issues" },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": { "test": "test/test.js" },
+  "dependencies": {},
+  "devDependencies": { "tape": "^2.12.0", "faucet": "0.0.1" },
+  "dist": 
+   { "shasum": "9ea007b591942dc8ee16089cf48526b7045afecf",
+     "tarball": "http://registry.npmjs.org/ebook-convert/-/ebook-convert-0.1.0.tgz" },
+  "directories": {} }
