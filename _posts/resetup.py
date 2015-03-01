@@ -27,23 +27,25 @@ if __name__ == "__main__":
 	yearTable = {'Feb':2, }
 
 	#定义头文件，空格不可省
-	headd = ['---\n', 'layout:     post\n', 'title:      ', '', 'subtitle:   ', '', 
+	headd = ['---\n', 'layout:     post\n', 'title:      ', '', 'subtitle:   ', '""\n', 
 			'date:       ', '', 'author:     "ccQ"\n', 'header-img: ', '\n', '---\n']
 
 	#开始替换样式，从多＃替换到少＃
 	for strs in s:
 		if re.match(r'(\#\#)', strs):
-			strs = re.sub(r'(\#\#){1}', '<h2 class="section-heading">', strs)
+			strs = re.sub(r'(\#\#\ *){1}', '<h2 class="section-heading">', strs)
 			strs = re.sub(r'\n$', '</h2>\n', strs)
 			ss += strs
 			continue
 
 		if re.match(r'(\#)', strs):
-			strs = re.sub(r'(\#){1}', '', strs)
+			strs = re.sub(r'(\#\ *){1}', '', strs)
 			title[1] = re.sub(r'\n$', '', strs)
 			strs = ''
 			ss += strs
 			continue
+		else:
+			ss += strs
 		#<p></p>意义不大，几乎看不出来
 		'''
 		if strs == '\n':
