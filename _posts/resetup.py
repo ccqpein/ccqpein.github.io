@@ -24,7 +24,7 @@ if __name__ == "__main__":
 
 	creat_date = time.ctime(os.path.getctime(filename+'.md')).split()
 	modify_date = time.ctime(os.path.getmtime(filename+'.md'))
-	yearTable = {'Feb':2, }
+	yearTable = {'Feb':2,'Mar':3 }
 
 	#定义头文件，空格不可省
 	headd = ['---\n', 'layout:     post\n', 'title:      ', '', 'subtitle:   ', '""\n', 
@@ -64,13 +64,13 @@ if __name__ == "__main__":
 	headd[3] = ''.join(title)
 	#副标题不好看，去掉了
 	#headd[5] = '"' + modify_date + '最后修改' + '"\n'
-	headd[7] = creat_date[4] +'-' +str(yearTable['Feb']) +'-' +creat_date[2] +' ' +creat_date[3] +'\n'
+	headd[7] = creat_date[4] +'-' +str(yearTable['Mar']) +'-' +creat_date[2] +' ' +creat_date[3] +'\n'
 
 	headline = ''.join(headd)
 
 	ss = headline + ss 
 
 	#写出
-	open(headd[7][:9] + '-' + filename + '.md', 'w').write(ss)
+	open(headd[7][:8] + '-' + filename + '.md', 'w').write(ss)
 	
 	#print()
