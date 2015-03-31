@@ -1,7 +1,9 @@
 # Menu navigation links
 
+'''
 - title: Theme Setup
   url: /theme-setup/
 
 - title: Guide
   url: /_posts/samplePost/
+'''
