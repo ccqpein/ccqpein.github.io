@@ -57,3 +57,35 @@
 ~~~
 
 ## \`
+反引号也是一种防止取值的方法，这点有点像`'`，但是两者的不同在于反引号内可以部分求值。
+
+~~~lisp
+(setf name "ccQ")
+
+`(this is ,name blog)
+>>>(THIS IS "ccQ" BLOG)
+~~~
+
+将需要求值的变量前面加上一个逗号，这个特性让反引号在定义宏中，经常被用到。
+
+~~~lisp
+(setf address '(you guess))
+
+`(,name live in ,address)
+>>>("ccQ" LIVE IN (YOU GUESS))
+
+`(,name live in ,@address)
+>>>("ccQ" LIVE IN YOU GUESS)
+~~~
+在逗号后面加上一个`@`符号能让后面的值，连接到反引号构造的结果中。
+
+再来一个实在不知道怎么描述的例子：
+
+~~~lisp
+(defmacro shower (name)
+    `(format t "~&The ~S is ~S" ',name ,name))
+
+(shower name)
+>>>The NAME is "ccQ"
+>>>NIL
+~~~
