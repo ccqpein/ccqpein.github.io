@@ -1,3 +1,11 @@
+---
+layout: post
+title: Common Lisp 语法糖
+modified: 2015-11-19
+tags: study
+image:
+---
+
 ## 写在前面
 自学了一段时间的common lisp，相比python而言，感觉语法反而比python简单。CL 语法的逻辑挺固定，当然不是说别的语言语法就诡异，只是理解了语法逻辑，再复杂的函数也知道是干嘛的。相比之下，一些python包的语法各种类方法的嵌套，看上去就挺吓人的。而lisp 就不一样，lisp 从一开始学的时候就很吓人。
 
