@@ -6,8 +6,6 @@ tags: study
 image:
 ---
 
-# Enigma Machine 小记
-
 ## 写在前面
 前几天，看了一下[知乎上一篇文章](http://www.zhihu.com/question/28397034)讲《模仿游戏》中提到的德军密码机Enigma。然后就想用python 自己写一个enigma机出来。
 
