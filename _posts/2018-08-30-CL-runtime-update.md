@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "OS X磁盘出错分析"
+title:      "Common Lisp 运行时更新"
 modified:   2018-08-30
 tag: study
 ---
