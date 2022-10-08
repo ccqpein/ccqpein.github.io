@@ -1,4 +1,7 @@
-# Preface
+---
+layout: post
+title: Some questions of SBCL block compilation
+---
 
 Several weeks ago, SBCL 2.0.2 updated with a "new" feature called `Block Compilation`. This is the first time I hear this term, I go collect some information of this new feature and I found this [article](https://mstmetent.blogspot.com/2020/02/block-compilation-fresh-in-sbcl-202.html). 
 

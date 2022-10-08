@@ -1,6 +1,7 @@
-# Personal CI/CD #
-
-## Why ##
+---
+layout: post
+title: Personal CI/CD
+---
 
 I am not a Jenkins' fan in my whole (not long) career. I always feel frustrated when I have to write jenkinsfile or use some other tools based on jenkins. 
 
