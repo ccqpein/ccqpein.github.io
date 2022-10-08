@@ -3,10 +3,6 @@ layout: post
 title: A tiny compare and optimize of my tiny project
 ---
 
-# Background
-
-## Why
-
 I am trying to learn OCaml several weeks ago. My personal hobbits is writing a tiny project for fun with new language which I am learning. So, for OCaml, I wanna to rewrite my old code-it-later project. At beginning, I just want to practice, then I get some experiments. 
 
 ## What is code-it-later
