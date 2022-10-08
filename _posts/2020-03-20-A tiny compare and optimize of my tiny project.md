@@ -1,3 +1,8 @@
+---
+layout: post
+title: A tiny compare and optimize of my tiny project
+---
+
 # Background
 
 ## Why
