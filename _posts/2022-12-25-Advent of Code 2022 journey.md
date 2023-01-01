@@ -86,3 +86,36 @@ Part 2 is tricky. Has to use algorithm [Flood fill](https://en.wikipedia.org/wik
 
 ### Day 19 ###
 
+Recursive recursive and recursive.
+
+### Day 20 ###
+
+I write day 20 in lisp at beginning, but with the circle list. Find the next number which should be move. It looks good but I forget there might be duplicated numbers. So each number should has flag shows if this number has moved or not.
+
+### Day 21 ###
+
+Day 21 part 1, I use a hash table keep each expression, and keep looping the hash table until all values are number. 
+
+Then part 2 cannot use this brute force, I tried to guess the number but it runs forever. So, the solution is: root node has two arguments, one of it we already know. I just need to reverse back from the root to humn node. 
+
+More interesting is I write part 2 with a lisp parser. Each key can be a lisp expression then reverse back and get the answer isn't that hard. Further more, I re-write part 1 with this solution and get the part 1 result just a `eval` in lisp. 
+
+### Day 22 ###
+
+A lot code in part 1, and when I saw the part 2, I give up.
+
+### Day 23 ###
+
+The hardest part is understanding the meaning of puzzle.
+
+### Day 24 & 25 ###
+
+I give up.
+
+## End ##
+
+I give up right before the end. What a pity. However, I think I will join the next years AOC again for fun. I have several thoughts about AOC this year. 
+
+1. I think some game developers make puzzles of 2022. For example, day22 part2 3D map moving; day 18 part2, 3D surface detection. Just too obviously to use in the game developing. And day17, Tetris.
+2. Some algorithm appear often in this year's solutions. BFS/DFS/Dijkstra/etc. straight forward brute force solution cannot solve all puzzles.
+3. Even tiny optimization can lead to the huge improvement. Even the Big O doesn't change. 
