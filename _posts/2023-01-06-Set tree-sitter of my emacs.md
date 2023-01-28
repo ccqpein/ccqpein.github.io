@@ -27,7 +27,7 @@ And the error message I got just shows that it cannot find the `dylib` file that
 
 ## Go fix it ##
 
-Actually, fix this problem does not even need to install `tree-sitter (-cli)` by cargo or homebrew. Just need do one `batch.sh` from [tree-sitter-module](https://github.com/casouri/tree-sitter-module). 
+Actually, fix this problem does not even need to install `tree-sitter (-cli)` by cargo ~~or homebrew~~ (I need it installed by homebrew when I compile my emacs). Just need do one `batch.sh` from [tree-sitter-module](https://github.com/casouri/tree-sitter-module). 
 
 Then change the `treesit-extra-load-path` in emacs configuration to the folder stores all the result files (`dist/` in the repo root is the default). 
 
