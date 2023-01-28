@@ -3,7 +3,7 @@ layout: post
 title: Migrating to Apple Silicon Mac
 ---
 
-After a year's wait, I finally got my M2 aarch64 chip MacBook Pro. And After one day of usage, there are some experiences I should write down about migrating from the old intel macbook pro to this new one. 
+After a year's wait, I finally got my M2 aarch64 chip MacBook Pro. And after one day of usage, there are some experiences I should write down about migrating from the old intel macbook pro to this new one. 
 
 Generally, not a lot frustrated. I use the mac migration assistant to transfer data from the old mbp to this one directly. Mostly, everything is just like a copy from the old one to the new one. Even the safari tabs I opened on my old computer are also opening on the new one.
 
