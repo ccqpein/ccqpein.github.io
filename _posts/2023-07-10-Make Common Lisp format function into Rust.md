@@ -22,7 +22,7 @@ Let me define the type first. I am grateful for Rust's generous type system. I d
 pub enum TildeKind {
     /// ~a
     Va,
-	/// there are more kinds too
+    /// there are more kinds too
 }
 ```
 
@@ -52,9 +52,9 @@ fn scan_for_kind(
     Box<dyn for<'a, 'b> Fn(&'a mut std::io::Cursor<&'b str>) -> Result<Tilde, TildeError>>,
     TildeError,
 > {
-	//
-	// some check 
-	//
+    //
+    // some check 
+    //
 
     match buf {
         [b'a', ..] | [b'A', ..] => {
