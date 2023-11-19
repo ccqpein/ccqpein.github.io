@@ -38,3 +38,5 @@ While programming in elisp, I encountered an issue: the process was set to retur
 helm is an excellent tool. However, the development documentation could use some improvement. I often had to refer to comments within the code in order to fully understand the class slots.
 
 Creating my first Emacs mode was a time-consuming but rewarding experience. It was a thrilling exercise as an Emacs user to write my own mode. The addition of the `cl-lib` package, which facilitates writing a lot of Common-Lisp-style code, was particularly beneficial and simplified the whole process.
+
+[Link of helm-code-it-later](https://github.com/ccqpein/helm-code-it-later)
