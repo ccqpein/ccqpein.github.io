@@ -26,7 +26,7 @@ basedir regex = /home
 
 Furthermore, I created the `/etc/systemd/system/netatalk.service` file:
 
-```int
+```
 [Unit]
 Description=Netatalk AFP fileserver for Macintosh clients
 After=network.target
@@ -98,7 +98,7 @@ One of my Raspberry Pi's functions is serving as my Plex host server. I installe
 
 Thanks to someone on Reddit, I learned that I could just change the running user of Plex by adding the following to `/etc/systemd/system/plexmediaserver.service.d/override.conf`:
 
-```int
+```
 [Service]
 User=pi
 Group=pi
