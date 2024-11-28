@@ -3,7 +3,7 @@ layout: post
 title: Unsafe Implementation in Iterator
 ---
 
-A few days ago, I encountered a performance issue with `Vec<Vec<T>>`. After resolving that problem, I stumbled upon another challenge, and I think it's worth writing down because I couldn't find a direct answer on Google.
+A few days ago, I encountered a [performance issue with `Vec<Vec<T>>`](https://ccqpein.me/Why-the-Vec-grid-of-my-tool-is-that-slow-in-Rust/). After resolving that problem, I stumbled upon another challenge, and I think it's worth writing down because I couldn't find a direct answer on Google.
 
 ## IterMut for My Map ##
 
