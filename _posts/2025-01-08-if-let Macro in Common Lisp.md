@@ -1,6 +1,6 @@
 ---
 layout: post
-title: `if-let` Macro in Common Lisp
+title: if-let Macro in Common Lisp
 ---
 
 I recently came across someone using the macro `if-let`. I was guessing its purpose is similar to the `if let` construct in Rust:
