@@ -154,12 +154,6 @@ This is the fun part I wanted to test. Because almost all the work is done durin
 | 0.55s        | 5000000          |
 | 3.18s        | 50000000         |
 
-
-
-0.21s 500000
-0.55s 5000000
-3.18s 50000000
-
 **lisp:**
 
 `(all 10)`
