@@ -157,4 +157,4 @@ Matrix Hit/matrix_iter_col => 437.18 µs
 
 It was fun revealing these L-cache performance issues. I have to admit that I might never encounter this level of performance optimization in my daily work (at least for now). 
 
-But it's always fun to learn something new, and these results actually support the [experience](https://abseil.io/fast/hints.html#better-memory-representation) shared in Jeff’s article.
+But it's always fun to learn something new, and these results actually support the [experience](https://abseil.io/fast/hints.html#better-memory-representation) shared in Jeff’s article. And here is the [code](https://github.com/ccqpein/garage/tree/c4da6fb13a215b52ea1b821d297659ee5342e62f/rusty/l-cache-test)
